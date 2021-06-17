@@ -1602,6 +1602,16 @@
             ],
             "product": ["liquid-biofuel", 4]
         },
+	    		{
+            "name": "Heavy Oil Residue",
+            "key_name": "heavy-oil-residue",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["crude-oil", 3]
+            ],
+            "product": ["heavy-oil-residue", 4]
+        },
 		{
             "name": "Fuel",
             "key_name": "fuel",
