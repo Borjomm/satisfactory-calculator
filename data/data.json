@@ -59,7 +59,7 @@
             "name": "Particle Accelerator",
             "key_name": "particle-accelerator",
             "category": "crafting5",
-            "power": 1500,
+            "power": 1000,
             "max": 3
         },
         {
