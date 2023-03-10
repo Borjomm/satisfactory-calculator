@@ -2402,7 +2402,7 @@
             "time": 12,
             "ingredients": [
                 ["iron-rebar", 2],
-		["smokeless-powder", 2]
+		["smokeless-powder", 2],
 		["steel-pipe", 2]
             ],
             "product": ["explosive-rebar", 1]
