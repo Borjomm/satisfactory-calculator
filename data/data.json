@@ -2439,10 +2439,10 @@
                 ["aluminum-casing", 1],
 		["packaged-turbofuel", 3]
             ],
-            "product": ["homing-rifle-ammo", 50]
+            "product": ["turbo-rifle-ammo", 50]
         },
 	{
-            "name": "Turbo Rifle Ammo",
+            "name": "Turbo Rifle Ammo (Blender)",
             "key_name": "turbo-rifle-ammo-blender",
             "category": "crafting3",
             "time": 12,
@@ -2451,7 +2451,7 @@
                 ["aluminum-casing", 1],
 		["turbofuel", 3]
             ],
-            "product": ["homing-rifle-ammo", 50]
+            "product": ["turbo-rifle-ammo", 50]
         },
         {
             "name": "Alternate: Compacted Coal",
