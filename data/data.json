@@ -276,9 +276,9 @@
             "stack_size": 100
         },
         {
-            "name": "Alien Carapace",
-            "key_name": "alien-carapace",
-            "tier": -1,
+            "name": "Alien Protein",
+            "key_name": "alien-protein",
+            "tier": 0,
             "stack_size": 100
         },
         {
@@ -562,12 +562,6 @@
             "key_name": "nobelisk",
             "tier": 4,
             "stack_size": 100
-        },
-        {
-            "name": "Alien Organs",
-            "key_name": "alien-organs",
-            "tier": -1,
-            "stack_size": 200
         },
         {
             "name": "Cartridge",
@@ -1238,11 +1232,11 @@
         },
         {
             "name": "Biomass",
-            "key_name": "biomass-from-alien-carapace",
+            "key_name": "biomass-from-alien-protein",
             "category": "crafting1",
             "time": 4,
             "ingredients": [
-                ["alien-carapace", 1]
+                ["alien-protein", 1]
             ],
             "product": ["biomass", 100]
         },
@@ -2187,16 +2181,6 @@
                 ["crystal-oscillator", 1]
             ],
             "product": ["nobelisk", 4]
-        },
-        {
-            "name": "Biomass",
-            "key_name": "biomass-from-alien-organs",
-            "category": "crafting1",
-            "time": 8,
-            "ingredients": [
-                ["alien-organs", 1]
-            ],
-            "product": ["biomass", 200]
         },
         {
             "name": "Cartridge",
