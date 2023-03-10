@@ -2357,7 +2357,7 @@
             "time": 120,
             "ingredients": [
                 ["nobelisk", 5],
-		["encased-uranium-cell", 20],
+		["uranium-cell", 20],
                 ["smokeless-powder", 10],
 		["ai-limiter", 6]
             ],
