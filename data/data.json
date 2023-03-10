@@ -904,7 +904,7 @@
             "key_name": "turbo-rifle-ammo",
             "tier": 9,
             "stack_size": 500
-        },
+        }
     ],
     "recipes": [
 	{
