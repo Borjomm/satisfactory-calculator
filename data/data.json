@@ -2863,11 +2863,11 @@
             "category": "crafting4",
             "time": 6,
             "ingredients": [
-                ["nitrogen-gas", 24],
-                ["water", 6],
+                ["nitrogen-gas", 12],
+                ["water", 3],
                 ["iron-plate", 1]
             ],
-            "product": ["nitric-acid", 6]
+            "product": ["nitric-acid", 3]
         },
 	    {
             "name": "Empty Fluid Tank",
