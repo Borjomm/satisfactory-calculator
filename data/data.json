@@ -68,6 +68,20 @@
             "max": 3
         },
         {
+            "name": "Quantum Encoder",
+            "key_name": "quantum-encoder",
+            "category": "crafting6",
+            "power": 2000,
+            "max": 4
+        },
+        {
+            "name": "Converter",
+            "key_name": "converter",
+            "category": "crafting7",
+            "power": 400,
+            "max": 2
+        },
+        {
             "name": "Smelter",
             "key_name": "smelter",
             "category": "smelting1",
@@ -3241,6 +3255,16 @@
 		["pressure-conversion-cube", 1]
             ],
             "product": ["plutonium-fuel-rod", 1]
+        },
+        {
+            "name": "Excited Photonic Matter",
+            "key_name": "excited-photonic-matter",
+            "category": "crafting7",
+            "time": 3,
+            "ingredients": [
+
+            ],
+            "product": ["excited-photonic-matter", 10]
         }
     ],
     "resources": [
@@ -3270,6 +3294,10 @@
         },
         {
             "key_name": "raw-quartz",
+            "category": "mineral"
+        },
+        {
+            "key_name": "sam",
             "category": "mineral"
         },
         {
