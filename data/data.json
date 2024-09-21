@@ -162,94 +162,10 @@
         }
     ],
     "items": [
-		{
-            "name": "Iron Ore",
-            "key_name": "iron-ore",
-            "tier": -1,
-            "stack_size": 100
-        },
-        {
-            "name": "Copper Ore",
-            "key_name": "copper-ore",
-            "tier": 0,
-            "stack_size": 100
-        },
-        {
-            "name": "Coal",
-            "key_name": "coal",
-            "tier": 3,
-            "stack_size": 100
-        },
-        {
-            "name": "Iron Ingot",
-            "key_name": "iron-ingot",
-            "tier": -1,
-            "stack_size": 100
-        },
-        {
-            "name": "Copper Ingot",
-            "key_name": "copper-ingot",
-            "tier": 0,
-            "stack_size": 100
-        },
-        {
-            "name": "Steel Ingot",
-            "key_name": "steel-ingot",
-            "tier": 4,
-            "stack_size": 100
-        },
-        {
-            "name": "Iron Plate",
-            "key_name": "iron-plate",
-            "tier": -1,
-            "stack_size": 200
-        },
-        {
-            "name": "Iron Rod",
-            "key_name": "iron-rod",
-            "tier": -1,
-            "stack_size": 200
-        },
-        {
-            "name": "Wire",
-            "key_name": "wire",
-            "tier": 0,
-            "stack_size": 500
-        },
-        {
-            "name": "Cable",
-            "key_name": "cable",
-            "tier": 0,
-            "stack_size": 200
-        },
-        {
-            "name": "Biomass",
-            "key_name": "biomass",
-            "tier": 0,
-            "stack_size": 200
-        },
-        {
-            "name": "Limestone",
-            "key_name": "limestone",
-            "tier": 0,
-            "stack_size": 100
-        },
-        {
-            "name": "Concrete",
-            "key_name": "concrete",
-            "tier": 0,
-            "stack_size": 500
-        },
         {
             "name": "Leaves",
             "key_name": "leaves",
             "tier": -1,
-            "stack_size": 500
-        },
-        {
-            "name": "Screw",
-            "key_name": "screw",
-            "tier": 0,
             "stack_size": 500
         },
         {
@@ -265,15 +181,225 @@
             "stack_size": 200
         },
         {
+            "name": "Biomass",
+            "key_name": "biomass",
+            "tier": -1,
+            "stack_size": 200
+        },
+        {
             "name": "Solid Biofuel",
             "key_name": "solid-biofuel",
             "tier": 1,
             "stack_size": 200
         },
         {
+            "name": "Fabric",
+            "key_name": "fabric",
+            "tier": -1,
+            "stack_size": 100
+        },
+        {
+            "name": "Hog Remains",
+            "key_name": "hog-remains",
+            "tier": -1,
+            "stack_size": 50
+        },
+	    {
+            "name": "Spitter Remains",
+            "key_name": "spitter-remains",
+            "tier": -1,
+            "stack_size": 50
+        },
+        {
+            "name": "Stinger Remains",
+            "key_name": "stinger-remains",
+            "tier": -1,
+            "stack_size": 50
+        },
+	    {
+            "name": "Hatcher Remains",
+            "key_name": "hatcher-remains",
+            "tier": -1,
+            "stack_size": 50
+        },
+        {
+            "name": "Alien Protein",
+            "key_name": "alien-protein",
+            "tier": -1,
+            "stack_size": 100
+        },
+        {
+            "name": "Alien DNA Capsule",
+            "key_name": "alien-dna-capsule",
+            "tier": 1,
+            "stack_size": 50
+        },
+        {
             "name": "Power Shard",
             "key_name": "power-shard",
+            "tier": -1,
+            "stack_size": 100
+        },
+		{
+            "name": "Iron Ore",
+            "key_name": "iron-ore",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Iron Ingot",
+            "key_name": "iron-ingot",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Iron Plate",
+            "key_name": "iron-plate",
+            "tier": 0,
+            "stack_size": 200
+        },
+        {
+            "name": "Iron Rod",
+            "key_name": "iron-rod",
+            "tier": 0,
+            "stack_size": 200
+        },
+        {
+            "name": "Screw",
+            "key_name": "screw",
+            "tier": 0,
+            "stack_size": 500
+        },
+        {
+            "name": "Limestone",
+            "key_name": "limestone",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
+            "name": "Concrete",
+            "key_name": "concrete",
+            "tier": 0,
+            "stack_size": 500
+        },
+        {
+            "name": "Copper Ore",
+            "key_name": "copper-ore",
+            "tier": 1,
+            "stack_size": 100
+        },
+        {
+            "name": "Copper Ingot",
+            "key_name": "copper-ingot",
+            "tier": 1,
+            "stack_size": 100
+        },
+        {
+            "name": "Wire",
+            "key_name": "wire",
+            "tier": 1,
+            "stack_size": 500
+        },
+        {
+            "name": "Cable",
+            "key_name": "cable",
+            "tier": 1,
+            "stack_size": 200
+        },
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
             "tier": 2,
+            "stack_size": 100
+        },
+        {
+            "name": "Reinforced Iron Plate",
+            "key_name": "reinforced-iron-plate",
+            "tier": 2,
+            "stack_size": 100
+        },
+        {
+            "name": "Rotor",
+            "key_name": "rotor",
+            "tier": 2,
+            "stack_size": 100
+        },
+        {
+            "name": "Modular Frame",
+            "key_name": "modular-frame",
+            "tier": 2,
+            "stack_size": 50
+        },
+        {
+            "name": "Water",
+            "key_name": "water",
+            "tier": 3,
+            "stack_size": 50
+        },
+        {
+            "name": "Coal",
+            "key_name": "coal",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Caterium Ore",
+            "key_name": "caterium-ore",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Caterium Ingot",
+            "key_name": "caterium-ingot",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Quickwire",
+            "key_name": "quickwire",
+            "tier": 3,
+            "stack_size": 500
+        },
+        {
+            "name": "Raw Quartz",
+            "key_name": "raw-quartz",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Quartz Crystal",
+            "key_name": "quartz-crystal",
+            "tier": 3,
+            "stack_size": 200
+        },
+        {
+            "name": "Silica",
+            "key_name": "silica",
+            "tier": 4,
+            "stack_size": 200
+        },
+        {
+            "name": "Sulfur",
+            "key_name": "sulfur",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Black Powder",
+            "key_name": "black-powder",
+            "tier": 3,
+            "stack_size": 200
+        },
+        {
+            "name": "Compacted Coal",
+            "key_name": "compacted-coal",
+            "tier": 3,
+            "stack_size": 100
+        },
+        {
+            "name": "Steel Ingot",
+            "key_name": "steel-ingot",
+            "tier": 4,
             "stack_size": 100
         },
         {
@@ -287,30 +413,6 @@
             "key_name": "steel-pipe",
             "tier": 4,
             "stack_size": 200
-        },
-        {
-            "name": "Reinforced Iron Plate",
-            "key_name": "reinforced-iron-plate",
-            "tier": 0,
-            "stack_size": 100
-        },
-        {
-            "name": "Rotor",
-            "key_name": "rotor",
-            "tier": 2,
-            "stack_size": 100
-        },		
-        {
-            "name": "Copper Sheet",
-            "key_name": "copper-sheet",
-            "tier": 2,
-            "stack_size": 100
-        },
-        {
-            "name": "Modular Frame",
-            "key_name": "modular-frame",
-            "tier": 2,
-            "stack_size": 50
         },
         {
             "name": "Encased Industrial Beam",
@@ -329,6 +431,12 @@
             "key_name": "motor",
             "tier": 4,
             "stack_size": 50
+        },
+        {
+            "name": "Crystal Oscillator",
+            "key_name": "crystal-oscillator",
+            "tier": 4,
+            "stack_size": 100
         },
         {
             "name": "Circuit Board",
@@ -426,12 +534,6 @@
             "tier": 5,
             "stack_size": 100
         },
-		{
-            "name": "Water",
-            "key_name": "water",
-            "tier": 2,
-            "stack_size": 50
-        },
         {
             "name": "Heavy Modular Frame",
             "key_name": "heavy-modular-frame",
@@ -443,24 +545,6 @@
             "key_name": "computer",
             "tier": 5,
             "stack_size": 100
-        },
-        {
-            "name": "Caterium Ore",
-            "key_name": "caterium-ore",
-            "tier": 3,
-            "stack_size": 100
-        },
-        {
-            "name": "Caterium Ingot",
-            "key_name": "caterium-ingot",
-            "tier": 3,
-            "stack_size": 100
-        },
-        {
-            "name": "Quickwire",
-            "key_name": "quickwire",
-            "tier": 3,
-            "stack_size": 500
         },
         {
             "name": "Supercomputer",
@@ -481,100 +565,16 @@
             "stack_size": 100
         },
         {
-            "name": "Fabric",
-            "key_name": "fabric",
-            "tier": 1,
-            "stack_size": 100
-        },
-	{
-            "name": "Alien DNA Capsule",
-            "key_name": "alien-dna-capsule",
-            "tier": 1,
-            "stack_size": 50
-        },
-        {
             "name": "Filter",
             "key_name": "filter",
             "tier": 6,
             "stack_size": 50
-        },
-	{
-            "name": "Hog Remains",
-            "key_name": "hog-remains",
-            "tier": -1,
-            "stack_size": 50
-        },
-	{
-            "name": "Plasma Spitter Remains",
-            "key_name": "plasma-spitter-remains",
-            "tier": -1,
-            "stack_size": 50
-        },
-	{
-            "name": "Stinger Remains",
-            "key_name": "stinger-remains",
-            "tier": -1,
-            "stack_size": 50
-        },
-	{
-            "name": "Hatcher Remains",
-            "key_name": "hatcher-remains",
-            "tier": -1,
-            "stack_size": 50
-        },
-	{
-            "name": "Alien Protein",
-            "key_name": "alien-protein",
-            "tier": 0,
-            "stack_size": 100
-        },
-        {
-            "name": "Raw Quartz",
-            "key_name": "raw-quartz",
-            "tier": 4,
-            "stack_size": 100
-        },
-        {
-            "name": "Quartz Crystal",
-            "key_name": "quartz-crystal",
-            "tier": 4,
-            "stack_size": 200
-        },
-        {
-            "name": "Crystal Oscillator",
-            "key_name": "crystal-oscillator",
-            "tier": 4,
-            "stack_size": 100
-        },
-        {
-            "name": "Sulfur",
-            "key_name": "sulfur",
-            "tier": 4,
-            "stack_size": 100
-        },
-        {
-            "name": "Black Powder",
-            "key_name": "black-powder",
-            "tier": 4,
-            "stack_size": 200
-        },
-        {
-            "name": "Compacted Coal",
-            "key_name": "compacted-coal",
-            "tier": 4,
-            "stack_size": 100
         },
         {
             "name": "Turbofuel",
             "key_name": "turbofuel",
             "tier": 6,
             "stack_size": 50
-        },
-        {
-            "name": "Silica",
-            "key_name": "silica",
-            "tier": 4,
-            "stack_size": 200
         },
         {
             "name": "Bauxite",
@@ -1543,7 +1543,7 @@
             "category": "crafting1",
             "time": 3,
             "ingredients": [
-                ["plasma-spitter-remains", 1]
+                ["spitter-remains", 1]
             ],
             "product": ["alien-protein", 1]
         },
