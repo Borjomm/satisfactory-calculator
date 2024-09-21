@@ -475,12 +475,6 @@
             "stack_size": 100
         },
         {
-            "name": "Circuit Board",
-            "key_name": "circuit-board",
-            "tier": 5,
-            "stack_size": 200
-        },
-        {
             "name": "Plastic",
             "key_name": "plastic",
             "tier": 5,
@@ -503,6 +497,12 @@
             "key_name": "petroleum-coke",
             "tier": 5,
             "stack_size": 200
+        },
+        {
+            "name": "Smokeless Powder",
+            "key_name": "smokeless-powder",
+            "tier": 5,
+            "stack_size": 100
         },
 		{
             "name": "Empty Canister",
@@ -527,6 +527,12 @@
             "key_name": "packaged-heavy-oil-residue",
             "tier": 5,
             "stack_size": 100
+        },
+        {
+            "name": "Circuit Board",
+            "key_name": "circuit-board",
+            "tier": 6,
+            "stack_size": 200
         },
         {
             "name": "High-Speed Connector",
@@ -911,12 +917,6 @@
             "key_name": "nuke-nobelisk",
             "tier": 10,
             "stack_size": 50
-        },
-	{
-            "name": "Smokeless Powder",
-            "key_name": "smokeless-powder",
-            "tier": 5,
-            "stack_size": 100
         },
         {
             "name": "Rifle Ammo",
@@ -1690,6 +1690,16 @@
             "product": ["modular-frame", 3]
         },
         {
+            "name": "Unpackaged Water",
+            "key_name": "unpackaged-water",
+            "category": "packaging",
+            "time": 1,
+            "ingredients": [
+                ["packaged-water", 2]
+            ],
+            "product": ["water", 2]
+        },
+        {
             "name": "Coal (Iron)",
             "key_name": "coal-iron",
             "category": "crafting7",
@@ -2239,87 +2249,246 @@
             ],
             "product": ["silica", 27]
         },
-	    {
-            "name": "Smart Plating",
-            "key_name": "smart-plating",
-            "category": "crafting2",
-            "time": 30,
+        {
+            "name": "Unpackaged Oil",
+            "key_name": "unpackaged-oil",
+            "category": "packaging",
+            "time": 2,
             "ingredients": [
-                ["reinforced-iron-plate", 1],
-				["rotor", 1]
+                ["packaged-oil", 2]
             ],
-            "product": ["smart-plating", 1]
+            "product": ["crude-oil", 2]
         },
         {
-            "name": "Alternate: Plastic Smart Plating",
-            "key_name": "alt-plastic-smart-plating",
-            "category": "crafting3",
-            "time": 24,
+            "name": "Heavy Oil Residue",
+            "key_name": "heavy-oil-residue",
+            "category": "refining",
+            "time": 6,
             "ingredients": [
-                ["reinforced-iron-plate", 1],
-                ["rotor", 1],
-                ["plastic", 3]
+                ["crude-oil", 3]
             ],
-            "product": ["smart-plating", 2]
+            "product": ["heavy-oil-residue", 4]
+        },
+        {
+            "name": "Fuel",
+            "key_name": "fuel",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["crude-oil", 6]
+            ],
+            "product": ["fuel", 4]
+        },
+        {
+            "name": "Residual Fuel",
+            "key_name": "alt-fuel",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["heavy-oil-residue", 6]
+            ],
+            "product": ["fuel", 4]
+        },
+	    {
+            "name": "Alternate: Diluted Fuel",
+            "key_name": "alt-diluted-fuel",
+            "category": "crafting4",
+            "time": 6,
+            "ingredients": [
+                ["heavy-oil-residue", 5],
+		["water", 10]
+            ],
+            "product": ["fuel", 10]
+        },
+        {
+            "name": "Unpackaged Fuel",
+            "key_name": "unpackaged-fuel",
+            "category": "packaging",
+            "time": 2,
+            "ingredients": [
+                ["packaged-fuel", 2]
+            ],
+            "product": ["fuel", 2]
+        },
+        {
+            "name": "Liquid Biofuel",
+            "key_name": "liquid-biofuel",
+            "category": "refining",
+            "time": 4,
+            "ingredients": [
+                ["solid-biofuel", 6],
+                ["water", 3]
+            ],
+            "product": ["liquid-biofuel", 4]
+        },
+        {
+            "name": "Unpackaged Biofuel",
+            "key_name": "unpackaged-biofuel",
+            "category": "packaging",
+            "time": 2,
+            "ingredients": [
+                ["packaged-liquid-biofuel", 2]
+            ],
+            "product": ["liquid-biofuel", 2]
+        },
+        {
+            "name": "Plastic",
+            "key_name": "plastic",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["crude-oil", 3]
+            ],
+            "product": ["plastic", 2]
+        },
+        {
+            "name": "Alternate: Recycled Plastic",
+            "key_name": "alt-plastic",
+            "category": "refining",
+            "time": 12,
+            "ingredients": [
+                ["rubber", 6],
+                ["fuel", 6]
+            ],
+            "product": ["plastic", 12]
         },
 		{
-            "name": "Versatile Framework",
-            "key_name": "versatile-framework",
+            "name": "Residual Plastic",
+            "key_name": "residual-plastic",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["polymer-resin", 6],
+                ["water", 2]
+            ],
+            "product": ["plastic", 2]
+        },
+        {
+            "name": "Rubber",
+            "key_name": "rubber",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["crude-oil", 3]
+            ],
+            "product": ["rubber", 2]
+        },
+		{
+            "name": "Residual Rubber",
+            "key_name": "residual-rubber",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["polymer-resin", 4],
+                ["water", 4]
+            ],
+            "product": ["rubber", 2]
+        },
+        {
+                "name": "Alternate: Recycled Rubber",
+                "key_name": "alt-recycled-rubber",
+                "category": "refining",
+                "time": 12,
+                "ingredients": [
+                    ["plastic", 6],
+                    ["fuel", 6]
+                ],
+                "product": ["rubber", 12]
+        },
+        {
+            "name": "Alternate: Polymer Resin",
+            "key_name": "alt-polymer-resin",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["crude-oil", 6]
+            ],
+            "product": ["polymer-resin", 13]
+        },
+        {
+            "name": "Petroleum Coke",
+            "key_name": "petroleum-coke",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["heavy-oil-residue", 4]
+            ],
+            "product": ["petroleum-coke", 12]
+        },
+        {
+            "name": "Empty Canister",
+            "key_name": "empty-canister",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["plastic", 2]
+				],
+            "product": ["empty-canister", 4]
+        },
+	    {
+            "name": "Alternate: Steel Canister",
+            "key_name": "alt-steel-canister",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["steel-ingot", 4]
+				],
+            "product": ["empty-canister", 4]
+        },
+	    {
+            "name": "Alternate: Coated Iron Canister",
+            "key_name": "alt-coated-canister",
             "category": "crafting2",
-            "time": 24,
+            "time": 4,
             "ingredients": [
-                ["modular-frame", 1],
-				["steel-beam", 12]
-            ],
-            "product": ["versatile-framework", 2]
+                    ["iron-plate", 2],
+		            ["copper-sheet", 1]
+				],
+            "product": ["empty-canister", 4]
         },
-		{
-            "name": "Automated Wiring",
-            "key_name": "automated-wiring",
-            "category": "crafting2",
-            "time": 24,
+        {
+            "name": "Packaged Water",
+            "key_name": "packaged-water",
+            "category": "packaging",
+            "time": 2,
             "ingredients": [
-                ["stator", 1],
-				["cable", 20]
+                ["water", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["automated-wiring", 1]
+            "product": ["packaged-water", 2]
         },
-		{
-            "name": "Alternate: Automated Speed Wiring",
-            "key_name": "alt-automated-wiring",
-            "category": "crafting3",
-            "time": 32,
+        {
+            "name": "Packaged Oil",
+            "key_name": "packaged-oil",
+            "category": "packaging",
+            "time": 4,
             "ingredients": [
-                ["stator", 2],
-                ["wire", 40],
-                ["high-speed-connector", 1]
+                ["crude-oil", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["automated-wiring", 4]
+            "product": ["packaged-oil", 2]
         },
-		{
-            "name": "Modular Engine",
-            "key_name": "modular-engine",
-            "category": "crafting3",
-            "time": 60,
+        {
+            "name": "Packaged Heavy Oil Residue",
+            "key_name": "packaged-heavy-oil-residue",
+            "category": "packaging",
+            "time": 4,
             "ingredients": [
-                ["motor", 2],
-				["rubber", 15],
-				["smart-plating", 2]
+                ["heavy-oil-residue", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["modular-engine", 1]
+            "product": ["packaged-heavy-oil-residue", 2]
         },
-		{
-            "name": "Adaptive Control Unit",
-            "key_name": "adaptive-control-unit",
-            "category": "crafting3",
-            "time": 120,
+        {
+            "name": "Smokeless Powder",
+            "key_name": "smokeless-powder",
+            "category": "refining",
+            "time": 6,
             "ingredients": [
-                ["automated-wiring", 15],
-				["circuit-board", 10],
-				["heavy-modular-frame", 2],
-				["computer", 2]
+                ["black-powder", 2],
+                ["heavy-oil-residue", 1]
             ],
-            "product": ["adaptive-control-unit", 2]
+            "product": ["smokeless-powder", 2]
         },
         {
             "name": "Circuit Board",
@@ -2366,79 +2535,6 @@
             "product": ["circuit-board", 1]
         },
         {
-            "name": "Alternate: Polymer Resin",
-            "key_name": "alt-polymer-resin",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 6]
-            ],
-            "product": ["polymer-resin", 13]
-        },
-        {
-            "name": "Plastic",
-            "key_name": "plastic",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 3]
-            ],
-            "product": ["plastic", 2]
-        },
-        {
-            "name": "Alternate: Recycled Plastic",
-            "key_name": "alt-plastic",
-            "category": "refining",
-            "time": 12,
-            "ingredients": [
-                ["rubber", 6],
-                ["fuel", 6]
-            ],
-            "product": ["plastic", 12]
-        },
-		{
-            "name": "Residual Plastic",
-            "key_name": "residual-plastic",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["polymer-resin", 6],
-                ["water", 2]
-            ],
-            "product": ["plastic", 2]
-        },
-        {
-            "name": "Liquid Biofuel",
-            "key_name": "liquid-biofuel",
-            "category": "refining",
-            "time": 4,
-            "ingredients": [
-                ["solid-biofuel", 6],
-                ["water", 3]
-            ],
-            "product": ["liquid-biofuel", 4]
-        },
-	    		{
-            "name": "Heavy Oil Residue",
-            "key_name": "heavy-oil-residue",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 3]
-            ],
-            "product": ["heavy-oil-residue", 4]
-        },
-		{
-            "name": "Fuel",
-            "key_name": "fuel",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 6]
-            ],
-            "product": ["fuel", 4]
-        },
-        {
             "name": "Turbofuel",
             "key_name": "turbofuel",
             "category": "refining",
@@ -2474,70 +2570,6 @@
             "product": ["turbofuel", 6]
         },
 		{
-            "name": "Empty Canister",
-            "key_name": "empty-canister",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["plastic", 2]
-				],
-            "product": ["empty-canister", 4]
-        },
-	    {
-            "name": "Alternate: Steel Canister",
-            "key_name": "alt-steel-canister",
-            "category": "crafting1",
-            "time": 3,
-            "ingredients": [
-                ["steel-ingot", 3]
-				],
-            "product": ["empty-canister", 2]
-        },
-	    {
-            "name": "Alternate: Coated Iron Canister",
-            "key_name": "alt-coated-canister",
-            "category": "crafting2",
-            "time": 4,
-            "ingredients": [
-                ["iron-plate", 2],
-		["copper-sheet", 1]
-				],
-            "product": ["empty-canister", 4]
-        },
-		{
-            "name": "Packaged Water",
-            "key_name": "packaged-water",
-            "category": "packaging",
-            "time": 2,
-            "ingredients": [
-                ["water", 2],
-                ["empty-canister", 2]
-            ],
-            "product": ["packaged-water", 2]
-        },
-		{
-            "name": "Packaged Oil",
-            "key_name": "packaged-oil",
-            "category": "packaging",
-            "time": 4,
-            "ingredients": [
-                ["crude-oil", 2],
-                ["empty-canister", 2]
-            ],
-            "product": ["packaged-oil", 2]
-        },
-		{
-            "name": "Packaged Heavy Oil Residue",
-            "key_name": "packaged-heavy-oil-residue",
-            "category": "packaging",
-            "time": 4,
-            "ingredients": [
-                ["heavy-oil-residue", 2],
-                ["empty-canister", 2]
-            ],
-            "product": ["packaged-heavy-oil-residue", 2]
-        },
-		{
             "name": "Packaged Fuel",
             "key_name": "packaged-fuel",
             "category": "packaging",
@@ -2558,37 +2590,6 @@
                 ["packaged-water", 2]
             ],
             "product": ["packaged-fuel", 2]
-        },
-		{
-            "name": "Residual Fuel",
-            "key_name": "alt-fuel",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["heavy-oil-residue", 6]
-            ],
-            "product": ["fuel", 4]
-        },
-	    	{
-            "name": "Unpackaged Fuel",
-            "key_name": "unpackaged-fuel",
-            "category": "packaging",
-            "time": 2,
-            "ingredients": [
-                ["packaged-fuel", 2]
-            ],
-            "product": ["fuel", 2]
-        },
-	    {
-            "name": "Alternate: Diluted Fuel",
-            "key_name": "alt-diluted-fuel",
-            "category": "crafting4",
-            "time": 6,
-            "ingredients": [
-                ["heavy-oil-residue", 5],
-		["water", 10]
-            ],
-            "product": ["fuel", 10]
         },
 		{
             "name": "Packaged Turbofuel",
@@ -2612,38 +2613,6 @@
             ],
             "product": ["packaged-liquid-biofuel", 2]
         },
-		{
-            "name": "Rubber",
-            "key_name": "rubber",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 3]
-            ],
-            "product": ["rubber", 2]
-        },
-		{
-            "name": "Residual Rubber",
-            "key_name": "residual-rubber",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["polymer-resin", 4],
-                ["water", 4]
-            ],
-            "product": ["rubber", 2]
-        },
-        {
-                "name": "Alternate: Recycled Rubber",
-                "key_name": "alt-recycled-rubber",
-                "category": "refining",
-                "time": 12,
-                "ingredients": [
-                    ["plastic", 6],
-                    ["fuel", 6]
-                ],
-                "product": ["rubber", 12]
-            },
         {
                     "name": "Alternate: Flexible Framework",
                     "key_name": "alt-flexible-framework",
@@ -2656,16 +2625,6 @@
                     ],
                     "product": ["versatile-framework", 2]
             },
-		{
-            "name": "Petroleum Coke",
-            "key_name": "petroleum-coke",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["heavy-oil-residue", 4]
-            ],
-            "product": ["petroleum-coke", 12]
-        },
         {
             "name": "Computer",
             "key_name": "computer",
@@ -2774,17 +2733,6 @@
                 ["fabric", 2]
             ],
             "product": ["filter", 1]
-        },
-	{
-            "name": "Smokeless Powder",
-            "key_name": "smokeless-powder",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["black-powder", 2],
-                ["heavy-oil-residue", 1]
-            ],
-            "product": ["smokeless-powder", 2]
         },
         {
             "name": "Nobelisk",
@@ -3552,6 +3500,88 @@
 
             ],
             "product": ["excited-photonic-matter", 10]
+        },
+        {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "category": "crafting2",
+            "time": 30,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+				["rotor", 1]
+            ],
+            "product": ["smart-plating", 1]
+        },
+        {
+            "name": "Alternate: Plastic Smart Plating",
+            "key_name": "alt-plastic-smart-plating",
+            "category": "crafting3",
+            "time": 24,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+                ["rotor", 1],
+                ["plastic", 3]
+            ],
+            "product": ["smart-plating", 2]
+        },
+		{
+            "name": "Versatile Framework",
+            "key_name": "versatile-framework",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                ["modular-frame", 1],
+				["steel-beam", 12]
+            ],
+            "product": ["versatile-framework", 2]
+        },
+		{
+            "name": "Automated Wiring",
+            "key_name": "automated-wiring",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                ["stator", 1],
+				["cable", 20]
+            ],
+            "product": ["automated-wiring", 1]
+        },
+		{
+            "name": "Alternate: Automated Speed Wiring",
+            "key_name": "alt-automated-wiring",
+            "category": "crafting3",
+            "time": 32,
+            "ingredients": [
+                ["stator", 2],
+                ["wire", 40],
+                ["high-speed-connector", 1]
+            ],
+            "product": ["automated-wiring", 4]
+        },
+		{
+            "name": "Modular Engine",
+            "key_name": "modular-engine",
+            "category": "crafting3",
+            "time": 60,
+            "ingredients": [
+                ["motor", 2],
+				["rubber", 15],
+				["smart-plating", 2]
+            ],
+            "product": ["modular-engine", 1]
+        },
+		{
+            "name": "Adaptive Control Unit",
+            "key_name": "adaptive-control-unit",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["automated-wiring", 15],
+				["circuit-board", 10],
+				["heavy-modular-frame", 2],
+				["computer", 2]
+            ],
+            "product": ["adaptive-control-unit", 2]
         }
     ],
     "resources": [
