@@ -975,7 +975,7 @@
         {
             "name": "Iodine Infused Filter",
             "key_name": "iodine-infused-filter",
-            "tier": 7,
+            "tier": 10,
             "stack_size": 50
         },
         {
