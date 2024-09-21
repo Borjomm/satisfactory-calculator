@@ -143,36 +143,6 @@
         }
     ],
     "items": [
-        {
-            "name": "Smart Plating",
-            "key_name": "smart-plating",
-            "tier": 2,
-            "stack_size": 50
-        },
-		{
-            "name": "Versatile Framework",
-            "key_name": "versatile-framework",
-            "tier": 3,
-            "stack_size": 50
-        },
-		{
-            "name": "Automated Wiring",
-            "key_name": "automated-wiring",
-            "tier": 4,
-            "stack_size": 50
-        },
-		{
-            "name": "Modular Engine",
-            "key_name": "modular-engine",
-            "tier": 5,
-            "stack_size": 50
-        },
-		{
-            "name": "Adaptive Control Unit",
-            "key_name": "adaptive-control-unit",
-            "tier": 5,
-            "stack_size": 50
-        },
 		{
             "name": "Iron Ore",
             "key_name": "iron-ore",
@@ -280,12 +250,6 @@
             "key_name": "solid-biofuel",
             "tier": 1,
             "stack_size": 200
-        },
-        {
-            "name": "Color Cartridge",
-            "key_name": "color-cartridge",
-            "tier": 2,
-            "stack_size": 100
         },
         {
             "name": "Power Shard",
@@ -515,12 +479,6 @@
             "tier": 6,
             "stack_size": 50
         },
-        {
-            "name": "Flower Petals",
-            "key_name": "flower-petals",
-            "tier": -1,
-            "stack_size": 200
-        },
 	{
             "name": "Hog Remains",
             "key_name": "hog-remains",
@@ -671,12 +629,6 @@
             "tier": 7,
             "stack_size": 100
         },
-	  {
-            "name": "Assembly Director System",
-            "key_name": "assembly-director-system",
-            "tier": 7,
-            "stack_size": 50
-        },  
         {
             "name": "Iodine Infused Filter",
             "key_name": "iodine-infused-filter",
@@ -754,24 +706,6 @@
             "key_name": "copper-powder",
             "tier": 8,
             "stack_size": 500
-        },
-        {
-            "name": "Nuclear Pasta",
-            "key_name": "nuclear-pasta",
-            "tier": 8,
-            "stack_size": 50
-        },
-        {
-            "name": "Magnetic Field Generator",
-            "key_name": "magnetic-field-generator",
-            "tier": 8,
-            "stack_size": 50
-        },
-        {
-            "name": "Thermal Propulsion Rocket",
-            "key_name": "thermal-propulsion-rocket",
-            "tier": 8,
-            "stack_size": 50
         },
         {
             "name": "Uranium",
@@ -906,12 +840,6 @@
             "stack_size": 100
         },
         {
-            "name": "Biochemical Sculptor",
-            "key_name": "biochemical-sculptor",
-            "tier": 9,
-            "stack_size": 100
-        },
-        {
             "name": "Excited Photonic Matter",
             "key_name": "excited-photonic-matter",
             "tier": 9,
@@ -938,12 +866,6 @@
         {
             "name": "Neural-Quantum Processor",
             "key_name": "neural-quantum-processor",
-            "tier": 9,
-            "stack_size": 100
-        },
-        {
-            "name": "AI Expansion Server",
-            "key_name": "ai-expansion-server",
             "tier": 9,
             "stack_size": 100
         },
@@ -1042,6 +964,78 @@
             "key_name": "turbo-rifle-ammo",
             "tier": 10,
             "stack_size": 500
+        },
+        {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "tier": 2,
+            "stack_size": 50
+        },
+        {
+            "name": "Versatile Framework",
+            "key_name": "versatile-framework",
+            "tier": 3,
+            "stack_size": 50
+        },
+        {
+            "name": "Automated Wiring",
+            "key_name": "automated-wiring",
+            "tier": 4,
+            "stack_size": 50
+        },
+        {
+            "name": "Modular Engine",
+            "key_name": "modular-engine",
+            "tier": 5,
+            "stack_size": 50
+        },
+        {
+            "name": "Adaptive Control Unit",
+            "key_name": "adaptive-control-unit",
+            "tier": 5,
+            "stack_size": 50
+        },
+        {
+            "name": "Assembly Director System",
+            "key_name": "assembly-director-system",
+            "tier": 7,
+            "stack_size": 50
+        },
+        {
+            "name": "Magnetic Field Generator",
+            "key_name": "magnetic-field-generator",
+            "tier": 8,
+            "stack_size": 50
+        },
+        {
+            "name": "Thermal Propulsion Rocket",
+            "key_name": "thermal-propulsion-rocket",
+            "tier": 8,
+            "stack_size": 50
+        },
+        {
+            "name": "Nuclear Pasta",
+            "key_name": "nuclear-pasta",
+            "tier": 8,
+            "stack_size": 50
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "key_name": "biochemical-sculptor",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Ballistic Warp Drive",
+            "key-name": "ballistic-warp-drive",
+            "tier": 11,
+            "stack_size:": 100
+        },
+        {
+            "name": "AI Expansion Server",
+            "key_name": "ai-expansion-server",
+            "tier": 9,
+            "stack_size": 100
         }
     ],
     "recipes": [
@@ -1533,16 +1527,6 @@
                 ["biomass", 8]
             ],
             "product": ["solid-biofuel", 4]
-        },
-        {
-            "name": "Color Cartridge",
-            "key_name": "color-cartridge",
-            "category": "crafting1",
-            "time": 6,
-            "ingredients": [
-                ["flower-petals", 5]
-            ],
-            "product": ["color-cartridge", 10]
         },
         {
             "name": "Steel Beam",
