@@ -173,12 +173,7 @@
             "tier": 5,
             "stack_size": 50
         },
-		{
-            "name": "Copper Sheet",
-            "key_name": "copper-sheet",
-            "tier": 2,
-            "stack_size": 100
-        },
+\
 		{
             "name": "Iron Ore",
             "key_name": "iron-ore",
@@ -320,6 +315,12 @@
         {
             "name": "Rotor",
             "key_name": "rotor",
+            "tier": 2,
+            "stack_size": 100
+        },		
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
             "tier": 2,
             "stack_size": 100
         },
@@ -719,6 +720,12 @@
             "tier": 8,
             "stack_size": 100
         },
+        {
+            "name": "Dissolved Silica",
+            "key_name": "dissolved-silica",
+            "tier": 8,
+            "stack_size": 100
+        },
 	    {
             "name": "Cooling System",
             "key_name": "cooling-system",
@@ -826,59 +833,191 @@
             "key_name": "plutonium-fuel-rod",
             "tier": 8,
             "stack_size": 50
+        },	
+        {
+            "name": "Plutonium Waste",
+            "key_name": "plutonium-waste",
+            "tier": 8,
+            "stack_size": 500
+        },
+        {
+            "name": "Rocket Fuel",
+            "key_name": "rocket-fuel",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Packaged Rocket Fuel",
+            "key_name": "packaged-rocket-fuel",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Ionized Fuel",
+            "key_name": "ionized-fuel",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "Packaged Ionized Fuel",
+            "key_name": "packaged-ionized-fuel",
+            "tier": 8,
+            "stack_size": 100
+        },
+        {
+            "name": "SAM",
+            "key_name": "sam",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Reanimated SAM",
+            "key_name": "reanimated-sam",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "SAM Fluctuator",
+            "key_name": "sam-fluctuator",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Ficsite Ingot",
+            "key_name": "ficsite-ingot",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Ficsite Trigon",
+            "key_name": "ficsite-trigon",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Diamonds",
+            "key_name": "diamonds",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Time Crystal",
+            "key_name": "time-crystal",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "key_name": "biochemical-sculptor",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Excited Photonic Matter",
+            "key_name": "excited-photonic-matter",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Dark Matter Residue",
+            "key_name": "dark-matter-residue",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Dark Matter Crystal",
+            "key_name": "dark-matter-crystal",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Superposition Oscillator",
+            "key_name": "superposition-oscillator",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Neural-Quantum Processor",
+            "key_name": "neural-quantum-processor",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "AI Expansion Server",
+            "key_name": "ai-expansion-server",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Singularity Cell",
+            "key_name": "singularity-cell",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Ficsonium",
+            "key_name": "ficsonium",
+            "tier": 9,
+            "stack_size": 100
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "key_name": "ficsonium-fuel-rod",
+            "tier": 9,
+            "stack_size": 100
         },
 	{
             "name": "Iron Rebar",
             "key_name": "iron-rebar",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 100
         },
 	{
             "name": "Stun Rebar",
             "key_name": "stun-rebar",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 100
         },
 	{
             "name": "Shatter Rebar",
             "key_name": "shatter-rebar",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 100
         },
 	{
             "name": "Explosive Rebar",
             "key_name": "explosive-rebar",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 100
         },
 	{
             "name": "Nobelisk",
             "key_name": "nobelisk",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 50
         },
 	    	{
             "name": "Gas Nobelisk",
             "key_name": "gas-nobelisk",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 50
         },
 	    	{
             "name": "Pulse Nobelisk",
             "key_name": "pulse-nobelisk",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 50
         },
 	    	{
             "name": "Cluster Nobelisk",
             "key_name": "cluster-nobelisk",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 50
         },
 	    	{
             "name": "Nuke Nobelisk",
             "key_name": "nuke-nobelisk",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 50
         },
 	{
@@ -890,19 +1029,19 @@
         {
             "name": "Rifle Ammo",
             "key_name": "rifle-ammo",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 500
         },
 	{
             "name": "Homing Rifle Ammo",
             "key_name": "homing-rifle-ammo",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 500
         },
 	{
             "name": "Turbo Rifle Ammo",
             "key_name": "turbo-rifle-ammo",
-            "tier": 9,
+            "tier": 10,
             "stack_size": 500
         }
     ],
