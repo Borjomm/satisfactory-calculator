@@ -229,6 +229,12 @@
             "stack_size": 200
         },
         {
+            "name": "Limestone",
+            "key_name": "limestone",
+            "tier": 0,
+            "stack_size": 100
+        },
+        {
             "name": "Concrete",
             "key_name": "concrete",
             "tier": 0,
@@ -239,12 +245,6 @@
             "key_name": "leaves",
             "tier": -1,
             "stack_size": 500
-        },
-        {
-            "name": "Limestone",
-            "key_name": "limestone",
-            "tier": 0,
-            "stack_size": 100
         },
         {
             "name": "Screw",
@@ -521,12 +521,6 @@
             "key_name": "hatcher-remains",
             "tier": -1,
             "stack_size": 50
-        },
-        {
-            "name": "Beacon",
-            "key_name": "beacon",
-            "tier": 0,
-            "stack_size": 100
         },
 	{
             "name": "Alien Protein",
@@ -1058,140 +1052,18 @@
         }
     ],
     "recipes": [
-	    	{
-            "name": "Bauxite (Caterium)",
-            "key_name": "bauxite-caterium",
+        {
+            "name": "Iron Ore (Limestone)",
+            "key_name": "iron-limestone",
             "category": "crafting7",
             "time": 6,
             "ingredients": [
                 ["reanimated-sam", 1],
-		["caterium-ore", 15]
+                ["limestone", 24]
             ],
-            "product": ["bauxite", 12]
-        },
-	{
-            "name": "Hog Protein",
-            "key_name": "hog-protein",
-            "category": "crafting1",
-            "time": 3,
-            "ingredients": [
-                ["hog-remains", 1]
-            ],
-            "product": ["alien-protein", 1]
-        },
-	{
-            "name": "Hatcher Protein",
-            "key_name": "hatcher-protein",
-            "category": "crafting1",
-            "time": 3,
-            "ingredients": [
-                ["hatcher-remains", 1]
-            ],
-            "product": ["alien-protein", 1]
-        },
-	{
-            "name": "Stinger Protein",
-            "key_name": "stinger-protein",
-            "category": "crafting1",
-            "time": 3,
-            "ingredients": [
-                ["stinger-remains", 1]
-            ],
-            "product": ["alien-protein", 1]
-        },
-	{
-            "name": "Spitter Protein",
-            "key_name": "spitter-protein",
-            "category": "crafting1",
-            "time": 3,
-            "ingredients": [
-                ["plasma-spitter-remains", 1]
-            ],
-            "product": ["alien-protein", 1]
-        },
-	{
-            "name": "Smart Plating",
-            "key_name": "smart-plating",
-            "category": "crafting2",
-            "time": 30,
-            "ingredients": [
-                ["reinforced-iron-plate", 1],
-				["rotor", 1]
-            ],
-            "product": ["smart-plating", 1]
+            "product": ["iron-ore", 12]
         },
         {
-            "name": "Alternate: Plastic Smart Plating",
-            "key_name": "alt-plastic-smart-plating",
-            "category": "crafting3",
-            "time": 24,
-            "ingredients": [
-                ["reinforced-iron-plate", 1],
-                ["rotor", 1],
-                ["plastic", 3]
-            ],
-            "product": ["smart-plating", 2]
-        },
-		{
-            "name": "Versatile Framework",
-            "key_name": "versatile-framework",
-            "category": "crafting2",
-            "time": 24,
-            "ingredients": [
-                ["modular-frame", 1],
-				["steel-beam", 12]
-            ],
-            "product": ["versatile-framework", 2]
-        },
-		{
-            "name": "Automated Wiring",
-            "key_name": "automated-wiring",
-            "category": "crafting2",
-            "time": 24,
-            "ingredients": [
-                ["stator", 1],
-				["cable", 20]
-            ],
-            "product": ["automated-wiring", 1]
-        },
-		{
-            "name": "Alternate: Automated Speed Wiring",
-            "key_name": "alt-automated-wiring",
-            "category": "crafting3",
-            "time": 32,
-            "ingredients": [
-                ["stator", 2],
-                ["wire", 40],
-                ["high-speed-connector", 1]
-            ],
-            "product": ["automated-wiring", 4]
-        },
-		{
-            "name": "Modular Engine",
-            "key_name": "modular-engine",
-            "category": "crafting3",
-            "time": 60,
-            "ingredients": [
-                ["motor", 2],
-				["rubber", 15],
-				["smart-plating", 2]
-            ],
-            "product": ["modular-engine", 1]
-        },
-		{
-            "name": "Adaptive Control Unit",
-            "key_name": "adaptive-control-unit",
-            "category": "crafting3",
-            "time": 120,
-            "ingredients": [
-                ["automated-wiring", 15],
-				["circuit-board", 10],
-				["heavy-modular-frame", 2],
-				["computer", 2]
-            ],
-            "product": ["adaptive-control-unit", 2]
-        },
-		{
             "name": "Iron Ingot",
             "key_name": "iron-ingot",
             "category": "smelting1",
@@ -1202,15 +1074,37 @@
             "product": ["iron-ingot", 1]
         },
         {
+            "name": "Alternate: Basic Iron Ingot",
+            "key_name": "alt-basic-iron-ingot",
+            "category": "smelting2",
+            "time": 12,
+            "ingredients": [
+                ["iron-ore", 5],
+                ["limestone", 8]
+            ],
+            "product": ["iron-ingot", 10]
+        },
+        {
             "name": "Alternate: Iron Alloy Ingot",
             "key_name": "alt-iron-ingot",
             "category": "smelting2",
-            "time": 6,
+            "time": 12,
             "ingredients": [
-                ["iron-ore", 2],
+                ["iron-ore", 8],
                 ["copper-ore", 2]
             ],
-            "product": ["iron-ingot", 5]
+            "product": ["iron-ingot", 15]
+        },
+        {
+            "name": "Alternate: Leached Iron Ingot",
+            "key_name": "alt-leached-iron-ingot",
+            "category": "refining",
+            "time": 6,
+            "ingredients": [
+                ["iron-ore", 7],
+                ["sulfuric-acid", 1]
+            ],
+            "product": ["iron-ingot", 10]
         },
         {
             "name": "Alternate: Pure Iron Ingot",
@@ -1222,82 +1116,6 @@
                 ["water", 4]
             ],
             "product": ["iron-ingot", 13]
-        },
-        {
-            "name": "Copper Ingot",
-            "key_name": "copper-ingot",
-            "category": "smelting1",
-            "time": 2,
-            "ingredients": [
-                ["copper-ore", 1]
-            ],
-            "product": ["copper-ingot", 1]
-        },
-        {
-            "name": "Alternate: Copper Alloy Ingot",
-            "key_name": "alt-copper-alloy-ingot",
-            "category": "smelting2",
-            "time": 12,
-            "ingredients": [
-                ["copper-ore", 10],
-                ["iron-ore", 5]
-            ],
-            "product": ["copper-ingot", 20]
-        },
-        {
-            "name": "Alternate: Pure Copper Ingot",
-            "key_name": "alt-pure-copper-ingot",
-            "category": "refining",
-            "time": 24,
-            "ingredients": [
-                ["copper-ore", 6],
-                ["water", 4]
-            ],
-            "product": ["copper-ingot", 15]
-        },
-        {
-            "name": "Steel Ingot",
-            "key_name": "steel-ingot",
-            "category": "smelting2",
-            "time": 4,
-            "ingredients": [
-                ["iron-ore", 3],
-                ["coal", 3]
-            ],
-            "product": ["steel-ingot", 3]
-        },
-        {
-            "name": "Alternate: Solid Steel Ingot",
-            "key_name": "alt-steel-ingot",
-            "category": "smelting2",
-            "time": 3,
-            "ingredients": [
-                ["iron-ingot", 2],
-                ["coal", 2]
-            ],
-            "product": ["steel-ingot", 3]
-        },
-        {
-            "name": "Alternate: Compacted Steel Ingot",
-            "key_name": "alt-enriched-steel-ingot",
-            "category": "smelting2",
-            "time": 16,
-            "ingredients": [
-                ["iron-ore", 6],
-                ["compacted-coal", 3]
-            ],
-            "product": ["steel-ingot", 10]
-        },
-        {
-            "name": "Alternate: Coke Steel Ingot",
-            "key_name": "alt-coke-steel-ingot",
-            "category": "smelting2",
-            "time": 12,
-            "ingredients": [
-                ["iron-ore", 15],
-                ["petroleum-coke", 15]
-            ],
-            "product": ["steel-ingot", 20]
         },
         {
             "name": "Iron Plate",
@@ -1313,23 +1131,23 @@
             "name": "Alternate: Coated Iron Plate",
             "key_name": "alt-coated-iron-plate",
             "category": "crafting2",
-            "time": 12,
+            "time": 8,
             "ingredients": [
-                ["iron-ingot", 10],
-                ["plastic", 2]
+                ["iron-ingot", 5],
+                ["plastic", 1]
             ],
-            "product": ["iron-plate", 15]
+            "product": ["iron-plate", 10]
         },
         {
-            "name": "Alternate: Steel Coated Plate",
+            "name": "Alternate: Steel Cast Plate",
             "key_name": "alt-steel-iron-plate",
-            "category": "crafting2",
-            "time": 24,
+            "category": "smelting2",
+            "time": 4,
             "ingredients": [
-                ["steel-ingot", 3],
-                ["plastic", 2]
+                ["iron-ingot", 1],
+                ["steel-ingot", 1]
             ],
-            "product": ["iron-plate", 18]
+            "product": ["iron-plate", 3]
         },
         {
             "name": "Iron Rod",
@@ -1350,6 +1168,92 @@
                 ["steel-ingot", 1]
             ],
             "product": ["iron-rod", 4]
+        },
+        {
+            "name": "Alternate: Aluminum Rod",
+            "key_name": "alt-aluminum-rod",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["aluminum-ingot", 1]
+            ],
+            "product": ["iron-rod", 7]
+        },
+        {
+            "name": "Copper Ore (Quartz)",
+            "key_name": "copper-quartz",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["raw-quartz", 10]
+            ],
+            "product": ["copper-ore", 12]
+        },
+        {
+            "name": "Copper Ore (Sulfur)",
+            "key_name": "copper-sulfur",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["raw-quartz", 12]
+            ],
+            "product": ["copper-ore", 12]
+        },
+        {
+            "name": "Copper Ingot",
+            "key_name": "copper-ingot",
+            "category": "smelting1",
+            "time": 2,
+            "ingredients": [
+                ["copper-ore", 1]
+            ],
+            "product": ["copper-ingot", 1]
+        },
+        {
+            "name": "Alternate: Copper Alloy Ingot",
+            "key_name": "alt-copper-alloy-ingot",
+            "category": "smelting2",
+            "time": 6,
+            "ingredients": [
+                ["copper-ore", 5],
+                ["iron-ore", 5]
+            ],
+            "product": ["copper-ingot", 10]
+        },
+        {
+            "name": "Alternate: Leached Copper Ingot",
+            "key_name": "alt-leached-copper-ingot",
+            "category": "refining",
+            "time": 12,
+            "ingredients": [
+                ["copper-ore", 9],
+                ["sulfuric-acid", 5]
+            ],
+            "product": ["copper-ingot", 22]
+        },
+        {
+            "name": "Alternate: Pure Copper Ingot",
+            "key_name": "alt-pure-copper-ingot",
+            "category": "refining",
+            "time": 24,
+            "ingredients": [
+                ["copper-ore", 6],
+                ["water", 4]
+            ],
+            "product": ["copper-ingot", 15]
+        },
+        {
+            "name": "Alternate: Tempered Copper Ingot",
+            "key_name": "alt-tempered-copper-ingot",
+            "category": "smelting2",
+            "time": 12,
+            "ingredients": [
+                ["copper-ore", 5],
+                ["petroleum-coke", 8]
+            ],
+            "product": ["copper-ingot", 12]
         },
         {
             "name": "Wire",
@@ -1445,7 +1349,48 @@
             ],
             "product": ["biomass", 5]
         },
-		{
+        {
+            "name": "Biomass",
+            "key_name": "biomass-from-wood",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["wood", 4]
+            ],
+            "product": ["biomass", 20]
+        },
+        {
+            "name": "Biomass",
+            "key_name": "biomass-from-alien-protein",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["alien-protein", 1]
+            ],
+            "product": ["biomass", 100]
+        },
+        {
+            "name": "Biomass",
+            "key_name": "biomass-from-mycelia",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["mycelia", 1]
+            ],
+            "product": ["biomass", 10]
+        },
+        {
+            "name": "Limestone (Sulfur)",
+            "key_name": "limestone-sulfur",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["sulfur", 2]
+            ],
+            "product": ["limestone", 12]
+        },
+        {
             "name": "Concrete",
             "key_name": "concrete",
             "category": "crafting1",
@@ -1470,7 +1415,7 @@
             "name": "Alternate: Rubber Concrete",
             "key_name": "alt-rubber-concrete",
             "category": "crafting2",
-            "time": 12,
+            "time": 6,
             "ingredients": [
                 ["limestone", 10],
                 ["rubber", 2]
@@ -1519,87 +1464,6 @@
             "product": ["screw", 52]
         },
         {
-            "name": "Biomass",
-            "key_name": "biomass-from-wood",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["wood", 4]
-            ],
-            "product": ["biomass", 20]
-        },
-        {
-            "name": "Biomass",
-            "key_name": "biomass-from-alien-protein",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["alien-protein", 1]
-            ],
-            "product": ["biomass", 100]
-        },
-        {
-            "name": "Biomass",
-            "key_name": "biomass-from-mycelia",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["mycelia", 10]
-            ],
-            "product": ["biomass", 10]
-        },
-        {
-            "name": "Solid Biofuel",
-            "key_name": "solid-biofuel",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["biomass", 8]
-            ],
-            "product": ["solid-biofuel", 4]
-        },
-        {
-            "name": "Steel Beam",
-            "key_name": "steel-beam",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["steel-ingot", 4]
-            ],
-            "product": ["steel-beam", 1]
-        },
-        {
-            "name": "Steel Pipe",
-            "key_name": "steel-pipe",
-            "category": "crafting1",
-            "time": 6,
-            "ingredients": [
-                ["steel-ingot", 3]
-            ],
-            "product": ["steel-pipe", 2]
-        },
-		{
-            "name": "Copper Sheet",
-            "key_name": "copper-sheet",
-            "category": "crafting1",
-            "time": 6,
-            "ingredients": [
-                ["copper-ingot", 2]
-            ],
-            "product": ["copper-sheet", 1]
-        },
-		{
-            "name": "Alternate: Steamed Copper Sheet",
-            "key_name": "alt-steamed-copper-sheet",
-            "category": "refining",
-            "time": 8,
-            "ingredients": [
-                ["copper-ingot", 3],
-                ["water", 3]
-            ],
-            "product": ["copper-sheet", 3]
-        },
-        {
             "name": "Reinforced Iron Plate",
             "key_name": "reinforced-iron-plate",
             "category": "crafting2",
@@ -1643,6 +1507,101 @@
             ],
             "product": ["reinforced-iron-plate", 1]
         },
+	    {
+            "name": "Hog Protein",
+            "key_name": "hog-protein",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["hog-remains", 1]
+            ],
+            "product": ["alien-protein", 1]
+        },
+	    {
+            "name": "Hatcher Protein",
+            "key_name": "hatcher-protein",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["hatcher-remains", 1]
+            ],
+            "product": ["alien-protein", 1]
+        },
+	    {
+            "name": "Stinger Protein",
+            "key_name": "stinger-protein",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["stinger-remains", 1]
+            ],
+            "product": ["alien-protein", 1]
+        },
+	    {
+            "name": "Spitter Protein",
+            "key_name": "spitter-protein",
+            "category": "crafting1",
+            "time": 3,
+            "ingredients": [
+                ["plasma-spitter-remains", 1]
+            ],
+            "product": ["alien-protein", 1]
+        },
+        {
+            "name": "Solid Biofuel",
+            "key_name": "solid-biofuel",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["biomass", 8]
+            ],
+            "product": ["solid-biofuel", 4]
+        },
+        {
+            "name": "Fabric",
+            "key_name": "fabric",
+            "category": "crafting2",
+            "time": 4,
+            "ingredients": [
+                ["mycelia", 1],
+                ["biomass", 5]
+            ],
+            "product": ["fabric", 1]
+        },
+		{
+            "name": "Polyester Fabric",
+            "key_name": "polyester-fabric",
+            "category": "refining",
+            "time": 2,
+            "ingredients": [
+                ["polymer-resin", 1],
+                ["water", 1]
+            ],
+            "product": ["fabric", 1]
+        },
+        {
+            "name": "Alien DNA Capsule",
+            "key_name": "alien-dna-capsule",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["alien-protein", 1]
+            ],
+            "product": ["alien-dna-capsule", 1]
+        },
+        {
+            "name": "Synthetic Power Shard",
+            "key_name": "synthetic-power-shard",
+            "category": "crafting6",
+            "time": 12,
+            "ingredients": [
+                ["time-crystal", 2],
+                ["dark-matter-crystal", 2],
+                ["quartz-crystal", 12],
+                ["excited-photonic-matter", 12]
+            ],
+            "product": ["power-shard", 1]
+        },
         {
             "name": "Rotor",
             "key_name": "rotor",
@@ -1675,6 +1634,27 @@
                 ["screw", 52]
             ],
             "product": ["rotor", 3]
+        },
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["copper-ingot", 2]
+            ],
+            "product": ["copper-sheet", 1]
+        },
+		{
+            "name": "Alternate: Steamed Copper Sheet",
+            "key_name": "alt-steamed-copper-sheet",
+            "category": "refining",
+            "time": 8,
+            "ingredients": [
+                ["copper-ingot", 3],
+                ["water", 3]
+            ],
+            "product": ["copper-sheet", 3]
         },
         {
             "name": "Modular Frame",
@@ -1710,13 +1690,247 @@
             "product": ["modular-frame", 3]
         },
         {
+            "name": "Coal (Iron)",
+            "key_name": "coal-iron",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["iron-ore", 18]
+            ],
+            "product": ["coal", 12]
+        },
+        {
+            "name": "Coal (Limestone)",
+            "key_name": "coal-limestone",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["limestone", 36]
+            ],
+            "product": ["coal", 12]
+        },
+        {
+            "name": "Alternate: Wood Coal",
+            "key_name": "alt-wood-coal",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["wood", 1]
+            ],
+            "product": ["coal", 10]
+        },
+        {
+            "name": "Alternate: Biomass Coal",
+            "key_name": "alt-biomass-coal",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["biomass", 5]
+            ],
+            "product": ["coal", 6]
+        },
+        {
+            "name": "Caterium Ore (Copper)",
+            "key_name": "caterium-copper",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["copper-ore", 15]
+            ],
+            "product": ["caterium-ore", 12]
+        },
+        {
+            "name": "Caterium Ore (Quartz)",
+            "key_name": "caterium-quartz",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+                ["raw-quartz", 12]
+            ],
+            "product": ["caterium-ore", 12]
+        },
+        {
+            "name": "Caterium Ingot",
+            "key_name": "caterium-ingot",
+            "category": "smelting1",
+            "time": 4,
+            "ingredients": [
+                ["caterium-ore", 3]
+            ],
+            "product": ["caterium-ingot", 1]
+        },
+        {
+            "name": "Alternate: Leached Caterium Ingot",
+            "key_name": "alt-leached-caterium-ingot",
+            "category": "refining",
+            "time": 10,
+            "ingredients": [
+                ["caterium-ore", 9],
+                ["water", 5]
+            ],
+            "product": ["caterium-ingot", 6]
+        },
+		{
+            "name": "Alternate: Pure Caterium Ingot",
+            "key_name": "alt-pure-caterium-ingot",
+            "category": "refining",
+            "time": 5,
+            "ingredients": [
+                ["caterium-ore", 2],
+                ["water", 2]
+            ],
+            "product": ["caterium-ingot", 1]
+        },
+        {
+            "name": "Alternate: Tempered Caterium Ingot",
+            "key_name": "alt-tempered-caterium-ingot",
+            "category": "smelting2",
+            "time": 8,
+            "ingredients": [
+                ["caterium-ore", 6],
+                ["petroleum-coke", 2]
+            ],
+            "product": ["caterium-ingot", 3]
+        },
+        {
+            "name": "Quickwire",
+            "key_name": "quickwire",
+            "category": "crafting1",
+            "time": 5,
+            "ingredients": [
+                ["caterium-ingot", 1]
+            ],
+            "product": ["quickwire", 5]
+        },
+        {
+            "name": "Alternate: Fused Quickwire",
+            "key_name": "alt-quickwire",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["caterium-ingot", 1],
+                ["copper-ingot", 5]
+            ],
+            "product": ["quickwire", 12]
+        },
+        {
+            "name": "Steel Ingot",
+            "key_name": "steel-ingot",
+            "category": "smelting2",
+            "time": 4,
+            "ingredients": [
+                ["iron-ore", 3],
+                ["coal", 3]
+            ],
+            "product": ["steel-ingot", 3]
+        },
+        {
+            "name": "Alternate: Solid Steel Ingot",
+            "key_name": "alt-steel-ingot",
+            "category": "smelting2",
+            "time": 3,
+            "ingredients": [
+                ["iron-ingot", 2],
+                ["coal", 2]
+            ],
+            "product": ["steel-ingot", 3]
+        },
+        {
+            "name": "Alternate: Compacted Steel Ingot",
+            "key_name": "alt-enriched-steel-ingot",
+            "category": "smelting2",
+            "time": 24,
+            "ingredients": [
+                ["iron-ore", 2],
+                ["compacted-coal", 1]
+            ],
+            "product": ["steel-ingot", 4]
+        },
+        {
+            "name": "Alternate: Coke Steel Ingot",
+            "key_name": "alt-coke-steel-ingot",
+            "category": "smelting2",
+            "time": 12,
+            "ingredients": [
+                ["iron-ore", 15],
+                ["petroleum-coke", 15]
+            ],
+            "product": ["steel-ingot", 20]
+        },
+        {
+            "name": "Steel Beam",
+            "key_name": "steel-beam",
+            "category": "crafting1",
+            "time": 4,
+            "ingredients": [
+                ["steel-ingot", 4]
+            ],
+            "product": ["steel-beam", 1]
+        },
+        {
+            "name": "Alternate: Aluminum Beam",
+            "key_name": "alt-aluminum-beam",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["aluminum-ingot", 3]
+            ],
+            "product": ["steel-beam", 3]
+        },
+        {
+            "name": "Alternate: Molded Beam",
+            "key_name": "alt-molded-beam",
+            "category": "smelting2",
+            "time": 12,
+            "ingredients": [
+                ["steel-ingot", 24],
+                ["concrete", 16]
+            ],
+            "product": ["steel-beam", 9]
+        },
+        {
+            "name": "Steel Pipe",
+            "key_name": "steel-pipe",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["steel-ingot", 3]
+            ],
+            "product": ["steel-pipe", 2]
+        },
+        {
+            "name": "Alternate: Iron Pipe",
+            "key_name": "alt-iron-pipe",
+            "category": "crafting1",
+            "time": 12,
+            "ingredients": [
+                ["iron-ingot", 20]
+            ],
+            "product": ["steel-pipe", 5]
+        },
+        {
+            "name": "Alternate: Molded Beam",
+            "key_name": "alt-molded-beam",
+            "category": "smelting2",
+            "time": 6,
+            "ingredients": [
+                ["steel-ingot", 5],
+                ["concrete", 3]
+            ],
+            "product": ["steel-pipe", 5]
+        },
+        {
             "name": "Encased Industrial Beam",
             "key_name": "encased-industrial-beam",
             "category": "crafting2",
             "time": 10,
             "ingredients": [
-                ["steel-beam", 4],
-                ["concrete", 5]
+                ["steel-beam", 3],
+                ["concrete", 6]
             ],
             "product": ["encased-industrial-beam", 1]
         },
@@ -1726,7 +1940,7 @@
             "category": "crafting2",
             "time": 15,
             "ingredients": [
-                ["steel-pipe", 7],
+                ["steel-pipe", 6],
                 ["concrete", 5]
             ],
             "product": ["encased-industrial-beam", 1]
@@ -1786,6 +2000,304 @@
                 ["rotor", 2]
             ],
             "product": ["motor", 2]
+        },
+        {
+            "name": "Heavy Modular Frame",
+            "key_name": "heavy-modular-frame",
+            "category": "crafting3",
+            "time": 30,
+            "ingredients": [
+                ["modular-frame", 5],
+                ["steel-pipe", 20],
+                ["encased-industrial-beam", 5],
+                ["screw", 120]
+            ],
+            "product": ["heavy-modular-frame", 1]
+        },
+        {
+            "name": "Alternate: Heavy Encased Frame",
+            "key_name": "alt-heavy-modular-frame",
+            "category": "crafting3",
+            "time": 64,
+            "ingredients": [
+                ["modular-frame", 8],
+                ["encased-industrial-beam", 10],
+                ["steel-pipe", 36],
+                ["concrete", 22]
+            ],
+            "product": ["heavy-modular-frame", 3]
+        },
+		{
+            "name": "Alternate: Heavy Flexible Frame",
+            "key_name": "alt-heavy-flexible-frame",
+            "category": "crafting3",
+            "time": 16,
+            "ingredients": [
+                ["modular-frame", 5],
+                ["encased-industrial-beam", 3],
+                ["rubber", 20],
+                ["screw", 104]
+            ],
+            "product": ["heavy-modular-frame", 1]
+        },
+        {
+            "name": "Raw Quartz (Bauxite)",
+            "key_name": "quartz-bauxite",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+				["bauxite", 10]
+            ],
+            "product": ["raw-quartz", 12]
+        },
+        {
+            "name": "Raw Quartz (Coal)",
+            "key_name": "quartz-coal",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+				["bauxite", 24]
+            ],
+            "product": ["raw-quartz", 12]
+        },
+        {
+            "name": "Quartz Crystal",
+            "key_name": "quartz-crystal",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["raw-quartz", 5]
+            ],
+            "product": ["quartz-crystal", 3]
+        },
+        {
+            "name": "Alternate: Pure Quartz Crystal",
+            "key_name": "alt-pure-quartz-crystal",
+            "category": "refining",
+            "time": 8,
+            "ingredients": [
+                ["raw-quartz", 9],
+                ["water", 5]
+            ],
+            "product": ["quartz-crystal", 7]
+        },
+        {
+            "name": "Alternate: Fused Quartz Crystal",
+            "key_name": "alt-fused-quartz-crystal",
+            "category": "smelting2",
+            "time": 20,
+            "ingredients": [
+                ["raw-quartz", 25],
+                ["coal", 12]
+            ],
+            "product": ["quartz-crystal", 18]
+        },
+        {
+            "name": "Alternate: Quartz Purification",
+            "key_name": "alt-quartz-purification",
+            "category": "refining",
+            "time": 12,
+            "ingredients": [
+                ["raw-quartz", 24],
+                ["nitric-acid", 2]
+            ],
+            "product": ["quartz-crystal", 15]
+        },
+        {
+            "name": "Crystal Oscillator",
+            "key_name": "crystal-oscillator",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["quartz-crystal", 36],
+                ["cable", 28],
+                ["reinforced-iron-plate", 5]
+            ],
+            "product": ["crystal-oscillator", 2]
+        },
+        {
+            "name": "Alternate: Insulated Crystal Oscillator",
+            "key_name": "alt-crystal-oscillator",
+            "category": "crafting3",
+            "time": 32,
+            "ingredients": [
+                ["quartz-crystal", 10],
+                ["rubber", 7],
+                ["ai-limiter", 1]
+            ],
+            "product": ["crystal-oscillator", 1]
+        },
+        {
+            "name": "Sulfur (Coal)",
+            "key_name": "sulfur-coal",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+				["coal", 20]
+            ],
+            "product": ["sulfur", 12]
+        },
+        {
+            "name": "Sulfur (Iron)",
+            "key_name": "sulfur-iron",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+				["iron-ore", 30]
+            ],
+            "product": ["sulfur", 12]
+        },
+        {
+            "name": "Black Powder",
+            "key_name": "black-powder",
+            "category": "crafting2",
+            "time": 4,
+            "ingredients": [
+                ["coal", 1],
+                ["sulfur", 1]
+            ],
+            "product": ["black-powder", 2]
+        },
+        {
+            "name": "Alternate: Compacted Coal",
+            "key_name": "alt-coal",
+            "category": "crafting2",
+            "time": 12,
+            "ingredients": [
+                ["coal", 5],
+                ["sulfur", 5]
+            ],
+            "product": ["compacted-coal", 5]
+        },
+        {
+            "name": "Alternate: Fine Black Powder",
+            "key_name": "alt-black-powder",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["sulfur", 1],
+                ["compacted-coal", 2]
+            ],
+            "product": ["black-powder", 6]
+        },
+        {
+            "name": "Silica",
+            "key_name": "silica",
+            "category": "crafting1",
+            "time": 8,
+            "ingredients": [
+                ["raw-quartz", 3]
+            ],
+            "product": ["silica", 5]
+        },
+        {
+            "name": "Alternate: Cheap Silica",
+            "key_name": "alt-silica",
+            "category": "crafting2",
+            "time": 8,
+            "ingredients": [
+                ["raw-quartz", 3],
+                ["limestone", 5]
+            ],
+            "product": ["silica", 7]
+        },
+        {
+            "name": "Alternate: Distilled Silica",
+            "key_name": "alt-distilled-silica",
+            "category": "crafting4",
+            "time": 6,
+            "ingredients": [
+                ["dissolved-silica", 12],
+                ["limestone", 5],
+                ["water", 10]
+            ],
+            "product": ["silica", 27]
+        },
+	    {
+            "name": "Smart Plating",
+            "key_name": "smart-plating",
+            "category": "crafting2",
+            "time": 30,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+				["rotor", 1]
+            ],
+            "product": ["smart-plating", 1]
+        },
+        {
+            "name": "Alternate: Plastic Smart Plating",
+            "key_name": "alt-plastic-smart-plating",
+            "category": "crafting3",
+            "time": 24,
+            "ingredients": [
+                ["reinforced-iron-plate", 1],
+                ["rotor", 1],
+                ["plastic", 3]
+            ],
+            "product": ["smart-plating", 2]
+        },
+		{
+            "name": "Versatile Framework",
+            "key_name": "versatile-framework",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                ["modular-frame", 1],
+				["steel-beam", 12]
+            ],
+            "product": ["versatile-framework", 2]
+        },
+		{
+            "name": "Automated Wiring",
+            "key_name": "automated-wiring",
+            "category": "crafting2",
+            "time": 24,
+            "ingredients": [
+                ["stator", 1],
+				["cable", 20]
+            ],
+            "product": ["automated-wiring", 1]
+        },
+		{
+            "name": "Alternate: Automated Speed Wiring",
+            "key_name": "alt-automated-wiring",
+            "category": "crafting3",
+            "time": 32,
+            "ingredients": [
+                ["stator", 2],
+                ["wire", 40],
+                ["high-speed-connector", 1]
+            ],
+            "product": ["automated-wiring", 4]
+        },
+		{
+            "name": "Modular Engine",
+            "key_name": "modular-engine",
+            "category": "crafting3",
+            "time": 60,
+            "ingredients": [
+                ["motor", 2],
+				["rubber", 15],
+				["smart-plating", 2]
+            ],
+            "product": ["modular-engine", 1]
+        },
+		{
+            "name": "Adaptive Control Unit",
+            "key_name": "adaptive-control-unit",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["automated-wiring", 15],
+				["circuit-board", 10],
+				["heavy-modular-frame", 2],
+				["computer", 2]
+            ],
+            "product": ["adaptive-control-unit", 2]
         },
         {
             "name": "Circuit Board",
@@ -2133,45 +2645,6 @@
             "product": ["petroleum-coke", 12]
         },
         {
-            "name": "Heavy Modular Frame",
-            "key_name": "heavy-modular-frame",
-            "category": "crafting3",
-            "time": 30,
-            "ingredients": [
-                ["modular-frame", 5],
-                ["steel-pipe", 15],
-                ["encased-industrial-beam", 5],
-                ["screw", 100]
-            ],
-            "product": ["heavy-modular-frame", 1]
-        },
-        {
-            "name": "Alternate: Heavy Encased Frame",
-            "key_name": "alt-heavy-modular-frame",
-            "category": "crafting3",
-            "time": 64,
-            "ingredients": [
-                ["modular-frame", 8],
-                ["encased-industrial-beam", 10],
-                ["steel-pipe", 36],
-                ["concrete", 22]
-            ],
-            "product": ["heavy-modular-frame", 3]
-        },
-		{
-            "name": "Alternate: Heavy Flexible Frame",
-            "key_name": "alt-heavy-flexible-frame",
-            "category": "crafting3",
-            "time": 16,
-            "ingredients": [
-                ["modular-frame", 5],
-                ["encased-industrial-beam", 3],
-                ["rubber", 20],
-                ["screw", 104]
-            ],
-            "product": ["heavy-modular-frame", 1]
-        },
-        {
             "name": "Computer",
             "key_name": "computer",
             "category": "crafting3",
@@ -2206,48 +2679,6 @@
                 ["crystal-oscillator", 3]
             ],
             "product": ["computer", 3]
-        },
-        {
-            "name": "Caterium Ingot",
-            "key_name": "caterium-ingot",
-            "category": "smelting1",
-            "time": 4,
-            "ingredients": [
-                ["caterium-ore", 3]
-            ],
-            "product": ["caterium-ingot", 1]
-        },
-		{
-            "name": "Alternate: Pure Caterium Ingot",
-            "key_name": "alt-pure-caterium-ingot",
-            "category": "refining",
-            "time": 5,
-            "ingredients": [
-                ["caterium-ore", 2],
-                ["water", 2]
-            ],
-            "product": ["caterium-ingot", 1]
-        },
-        {
-            "name": "Quickwire",
-            "key_name": "quickwire",
-            "category": "crafting1",
-            "time": 5,
-            "ingredients": [
-                ["caterium-ingot", 1]
-            ],
-            "product": ["quickwire", 5]
-        },
-        {
-            "name": "Alternate: Fused Quickwire",
-            "key_name": "alt-quickwire",
-            "category": "crafting2",
-            "time": 8,
-            "ingredients": [
-                ["caterium-ingot", 1],
-                ["copper-ingot", 5]
-            ],
-            "product": ["quickwire", 12]
         },
         {
             "name": "Supercomputer",
@@ -2322,28 +2753,6 @@
             "product": ["ai-limiter", 1]
         },
         {
-            "name": "Fabric",
-            "key_name": "fabric",
-            "category": "crafting2",
-            "time": 4,
-            "ingredients": [
-                ["mycelia", 1],
-                ["biomass", 5]
-            ],
-            "product": ["fabric", 1]
-        },
-		{
-            "name": "Polyester Fabric",
-            "key_name": "polyester-fabric",
-            "category": "refining",
-            "time": 2,
-            "ingredients": [
-                ["polymer-resin", 1],
-                ["water", 1]
-            ],
-            "product": ["fabric", 1]
-        },
-        {
             "name": "Filter",
             "key_name": "filter",
             "category": "crafting3",
@@ -2354,98 +2763,6 @@
                 ["fabric", 2]
             ],
             "product": ["filter", 1]
-        },
-        {
-            "name": "Beacon",
-            "key_name": "beacon",
-            "category": "crafting3",
-            "time": 8,
-            "ingredients": [
-                ["iron-plate", 3],
-                ["iron-rod", 1],
-                ["wire", 15],
-                ["cable", 2]
-            ],
-            "product": ["beacon", 1]
-        },
-        {
-            "name": "Alternate: Crystal Beacon",
-            "key_name": "alt-beacon",
-            "category": "crafting3",
-            "time": 120,
-            "ingredients": [
-                ["steel-beam", 4],
-                ["steel-pipe", 16],
-                ["crystal-oscillator", 1]
-            ],
-            "product": ["beacon", 20]
-        },
-        {
-            "name": "Quartz Crystal",
-            "key_name": "quartz-crystal",
-            "category": "crafting1",
-            "time": 8,
-            "ingredients": [
-                ["raw-quartz", 5]
-            ],
-            "product": ["quartz-crystal", 3]
-        },
-        {
-            "name": "Alternate: Pure Quartz Crystal",
-            "key_name": "alt-pure-quartz-crystal",
-            "category": "refining",
-            "time": 8,
-            "ingredients": [
-                ["raw-quartz", 9],
-                ["water", 5]
-            ],
-            "product": ["quartz-crystal", 7]
-        },
-        {
-            "name": "Crystal Oscillator",
-            "key_name": "crystal-oscillator",
-            "category": "crafting3",
-            "time": 120,
-            "ingredients": [
-                ["quartz-crystal", 36],
-                ["cable", 28],
-                ["reinforced-iron-plate", 5]
-            ],
-            "product": ["crystal-oscillator", 2]
-        },
-        {
-            "name": "Alternate: Insulated Crystal Oscillator",
-            "key_name": "alt-crystal-oscillator",
-            "category": "crafting3",
-            "time": 32,
-            "ingredients": [
-                ["quartz-crystal", 10],
-                ["rubber", 7],
-                ["ai-limiter", 1]
-            ],
-            "product": ["crystal-oscillator", 1]
-        },
-        {
-            "name": "Black Powder",
-            "key_name": "black-powder",
-            "category": "crafting2",
-            "time": 4,
-            "ingredients": [
-                ["coal", 1],
-                ["sulfur", 1]
-            ],
-            "product": ["black-powder", 2]
-        },
-        {
-            "name": "Alternate: Fine Black Powder",
-            "key_name": "alt-black-powder",
-            "category": "crafting2",
-            "time": 16,
-            "ingredients": [
-                ["sulfur", 2],
-                ["compacted-coal", 1]
-            ],
-            "product": ["black-powder", 4]
         },
 	{
             "name": "Smokeless Powder",
@@ -2604,58 +2921,6 @@
 		["packaged-turbofuel", 3]
             ],
             "product": ["turbo-rifle-ammo", 50]
-        },
-        {
-            "name": "Alternate: Compacted Coal",
-            "key_name": "alt-coal",
-            "category": "crafting2",
-            "time": 12,
-            "ingredients": [
-                ["coal", 5],
-                ["sulfur", 5]
-            ],
-            "product": ["compacted-coal", 5]
-        },
-        {
-            "name": "Alternate: Wood Coal",
-            "key_name": "alt-wood-coal",
-            "category": "crafting1",
-            "time": 4,
-            "ingredients": [
-                ["wood", 1]
-            ],
-            "product": ["coal", 10]
-        },
-        {
-            "name": "Alternate: Biomass Coal",
-            "key_name": "alt-biomass-coal",
-            "category": "crafting1",
-            "time": 8,
-            "ingredients": [
-                ["biomass", 5]
-            ],
-            "product": ["coal", 6]
-        },
-        {
-            "name": "Silica",
-            "key_name": "silica",
-            "category": "crafting1",
-            "time": 8,
-            "ingredients": [
-                ["raw-quartz", 3]
-            ],
-            "product": ["silica", 5]
-        },
-        {
-            "name": "Alternate: Cheap Silica",
-            "key_name": "alt-silica",
-            "category": "crafting2",
-            "time": 16,
-            "ingredients": [
-                ["raw-quartz", 3],
-                ["limestone", 5]
-            ],
-            "product": ["silica", 7]
         },
 		{
             "name": "Alumina Solution",
@@ -2993,7 +3258,7 @@
                 ["uranium-cell", 100],
                 ["em-control-rod", 10],
                 ["crystal-oscillator", 3],
-                ["beacon", 6]
+                ["rotor", 10]
             ],
             "product": ["uranium-fuel-rod", 3]
         },
