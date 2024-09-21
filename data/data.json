@@ -3302,6 +3302,16 @@
             "product": ["plutonium-fuel-rod", 1]
         },
         {
+            "name": "Plutonium Waste",
+            "key_name": "plutonium-waste",
+            "category": "nuclear",
+            "time": 600,
+            "ingredients": [
+		        ["plutonium-fuel-rod", 1]
+            ],
+            "product": ["plutonium-waste", 10]
+        },
+        {
             "name": "Rocket Fuel",
             "key_name": "rocket-fuel",
             "category": "crafting4",
@@ -3368,6 +3378,144 @@
             "product": ["ionized-fuel", 4]
         },
         {
+            "name": "Reanimated SAM",
+            "key_name": "reanimated-sam",
+            "category": "crafting1",
+            "time": 2,
+            "ingredients": [
+                ["sam", 4]
+            ],
+            "product": ["reanimated-sam", 1]
+        },
+        {
+            "name": "SAM Fluctuator",
+            "key_name": "sam-fluctuator",
+            "category": "crafting3",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 6],
+                ["wire", 5],
+                ["steel-pipe", 3]
+            ],
+            "product": ["sam-fluctuator", 1]
+        },
+        {
+            "name": "Ficsite Ingot (Aluminum)",
+            "key_name": "ficsite-aluminum",
+            "category": "crafting7",
+            "time": 2,
+            "ingredients": [
+                ["reanimated-sam", 2],
+                ["aluminum-ingot", 4]
+            ],
+            "product": ["ficsite-ingot", 1]
+        },
+        {
+            "name": "Ficsite Ingot (Caterium)",
+            "key_name": "ficsite-caterium",
+            "category": "crafting7",
+            "time": 4,
+            "ingredients": [
+                ["reanimated-sam", 3],
+                ["caterium-ingot", 4]
+            ],
+            "product": ["ficsite-ingot", 1]
+        },
+        {
+            "name": "Ficsite Ingot (Iron)",
+            "key_name": "ficsite-iron",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 4],
+                ["iron-ingot", 24]
+            ],
+            "product": ["ficsite-ingot", 1]
+        },
+        {
+            "name": "Ficsite Trigon",
+            "key_name": "ficsite-trigon",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["ficsite-ingot", 1]
+            ],
+            "product": ["ficsite-trigon", 3]
+        },
+        {
+            "name": "Diamonds",
+            "key_name": "diamonds",
+            "category": "crafting5",
+            "time": 2,
+            "ingredients": [
+                ["coal", 20]
+            ],
+            "product": ["diamonds", 1]
+        },
+        {
+            "name": "Alternate: Cloudy Diamonds",
+            "key_name": "cloudy-diamonds",
+            "category": "crafting5",
+            "time": 3,
+            "ingredients": [
+                ["coal", 12],
+                ["limestone", 24]
+            ],
+            "product": ["diamonds", 1]
+        },
+        {
+            "name": "Alternate: Oil-Based Diamonds",
+            "key_name": "oil-based-diamonds",
+            "category": "crafting5",
+            "time": 3,
+            "ingredients": [
+                ["crude-oil", 10]
+            ],
+            "product": ["diamonds", 2]
+        },
+        {
+            "name": "Alternate: Petroleum Diamonds",
+            "key_name": "petroleum-diamonds",
+            "category": "crafting5",
+            "time": 2,
+            "ingredients": [
+                ["petroleum-coke", 24]
+            ],
+            "product": ["diamonds", 1]
+        },
+        {
+            "name": "Alternate: Pink Diamonds",
+            "key_name": "pink-diamonds",
+            "category": "crafting7",
+            "time": 4,
+            "ingredients": [
+                ["coal", 8],
+                ["quartz-crystal", 3]
+            ],
+            "product": ["diamonds", 1]
+        },
+        {
+            "name": "Alternate: Turbo Diamonds",
+            "key_name": "turbo-diamonds",
+            "category": "crafting5",
+            "time": 3,
+            "ingredients": [
+                ["coal", 30],
+                ["packaged-turbofuel", 2]
+            ],
+            "product": ["diamonds", 3]
+        },
+        {
+            "name": "Time Crystal",
+            "key_name": "time-crystal",
+            "category": "crafting7",
+            "time": 10,
+            "ingredients": [
+                ["diamonds", 2]
+            ],
+            "product": ["time-crystal", 1]
+        },
+        {
             "name": "Excited Photonic Matter",
             "key_name": "excited-photonic-matter",
             "category": "crafting7",
@@ -3376,6 +3524,112 @@
 
             ],
             "product": ["excited-photonic-matter", 10]
+        },
+        {
+            "name": "Dark Matter Residue",
+            "key_name": "dark-matter-residue",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 5]
+            ],
+            "product": ["dark-matter-residue", 10]
+        },
+        {
+            "name": "Dark Matter Crystal",
+            "key_name": "dark-matter-crystal",
+            "category": "crafting5",
+            "time": 2,
+            "ingredients": [
+                ["diamonds", 1],
+                ["dark-matter-residue", 5]
+            ],
+            "product": ["dark-matter-crystal", 1]
+        },
+        {
+            "name": "Alternate: Dark Matter Crystallization",
+            "key_name": "alt-dark-matter-crystal",
+            "category": "crafting5",
+            "time": 3,
+            "ingredients": [
+                ["dark-matter-residue", 10]
+            ],
+            "product": ["dark-matter-crystal", 1]
+        },
+        {
+            "name": "Alternate: Dark Matter Trap",
+            "key_name": "dark-matter-trap",
+            "category": "crafting5",
+            "time": 2,
+            "ingredients": [
+                ["time-crystal", 1],
+                ["dark-matter-residue", 5]
+            ],
+            "product": ["dark-matter-crystal", 2]
+        },
+        {
+            "name": "Superposition Oscillator",
+            "key_name": "superposition-oscillator",
+            "category": "crafting6",
+            "time": 12,
+            "ingredients": [
+                ["dark-matter-crystal", 6],
+                ["crystal-oscillator", 1],
+                ["alclad-aluminum-sheet", 9],
+                ["excited-photonic-matter", 25]
+            ],
+            "product": ["superposition-oscillator", 1]
+        },
+        {
+            "name": "Neural-Quantum Processor",
+            "key_name": "neural-quantum-processor",
+            "category": "crafting6",
+            "time": 20,
+            "ingredients": [
+                ["time-crystal", 5],
+                ["supercomputer", 1],
+                ["ficsite-trigon", 15],
+                ["excited-photonic-matter", 25]
+            ],
+            "product": ["neural-quantum-processor", 1]
+        },
+        {
+            "name": "Singularity Cell",
+            "key_name": "singularity-cell",
+            "category": "crafting3",
+            "time": 60,
+            "ingredients": [
+                ["nuclear-pasta", 1],
+                ["dark-matter-crystal", 20],
+                ["iron-plate", 100],
+                ["concrete", 200]
+            ],
+            "product": ["singularity-cell", 10]
+        },
+        {
+            "name": "Ficsonium",
+            "key_name": "ficsonium",
+            "category": "crafting5",
+            "time": 6,
+            "ingredients": [
+                ["plutonium-waste", 1],
+                ["singularity-cell", 1],
+                ["dark-matter-residue", 20]
+            ],
+            "product": ["ficsonium", 1]
+        },
+        {
+            "name": "Ficsonium Fuel Rod",
+            "key_name": "ficsonium-fuel-rod",
+            "category": "crafting6",
+            "time": 24,
+            "ingredients": [
+                ["ficsonium", 2],
+                ["em-control-rod", 2],
+                ["ficsite-trigon", 40],
+                ["excited-photonic-matter", 20]
+            ],
+            "product": ["ficsonium-fuel-rod", 1]
         },
         {
             "name": "Iron Rebar",
@@ -3394,7 +3648,7 @@
             "time": 6,
             "ingredients": [
                 ["iron-rebar", 1],
-		        ["quickwire", 1]
+		        ["quickwire", 5]
             ],
             "product": ["stun-rebar", 1]
         },
@@ -3449,10 +3703,10 @@
             "category": "crafting2",
             "time": 60,
             "ingredients": [
-                ["nobelisk", 1],
+                ["nobelisk", 5],
                 ["crystal-oscillator", 1]
             ],
-            "product": ["pulse-nobelisk", 1]
+            "product": ["pulse-nobelisk", 5]
         },
         {
             "name": "Cluster Nobelisk",
@@ -3507,7 +3761,7 @@
             "time": 12,
             "ingredients": [
                 ["rifle-ammo", 25],
-                ["aluminum-casing", 1],
+                ["aluminum-casing", 3],
 		        ["turbofuel", 3]
             ],
             "product": ["turbo-rifle-ammo", 50]
@@ -3519,8 +3773,8 @@
             "time": 12,
             "ingredients": [
                 ["rifle-ammo", 25],
-                ["aluminum-casing", 1],
-		["packaged-turbofuel", 3]
+                ["aluminum-casing", 3],
+		        ["packaged-turbofuel", 3]
             ],
             "product": ["turbo-rifle-ammo", 50]
         },
@@ -3569,13 +3823,35 @@
             "product": ["packaged-liquid-biofuel", 2]
         },
         {
+            "name": "Packaged Rocket Fuel",
+            "key_name": "packaged-rocket-fuel",
+            "category": "packaging",
+            "time": 1,
+            "ingredients": [
+                ["rocket-fuel", 2],
+                ["empty-fluid-tank", 1]
+            ],
+            "product": ["packaged-rocket-fuel", 1]
+        },
+        {
+            "name": "Packaged Ionized Fuel",
+            "key_name": "packaged-ionized-fuel",
+            "category": "packaging",
+            "time": 3,
+            "ingredients": [
+                ["ionized-fuel", 4],
+                ["empty-fluid-tank", 2]
+            ],
+            "product": ["packaged-ionized-fuel", 2]
+        },
+        {
             "name": "Filter",
             "key_name": "filter",
             "category": "crafting3",
             "time": 8,
             "ingredients": [
-                ["coal", 5],
-                ["rubber", 2],
+                ["coal", 4],
+                ["iron-plate", 2],
                 ["fabric", 2]
             ],
             "product": ["filter", 1]
@@ -3588,7 +3864,7 @@
             "ingredients": [
                 ["filter", 1],
                 ["quickwire", 8],
-                ["rubber", 2]
+                ["aluminum-casing", 1]
             ],
             "product": ["iodine-infused-filter", 1]
         },
@@ -3677,14 +3953,14 @@
             "name": "Adaptive Control Unit",
             "key_name": "adaptive-control-unit",
             "category": "crafting3",
-            "time": 120,
+            "time": 60,
             "ingredients": [
-                ["automated-wiring", 15],
-				["circuit-board", 10],
-				["heavy-modular-frame", 2],
+                ["automated-wiring", 5],
+				["circuit-board", 5],
+				["heavy-modular-frame", 1],
 				["computer", 2]
             ],
-            "product": ["adaptive-control-unit", 2]
+            "product": ["adaptive-control-unit", 1]
         },
         {
             "name": "Assembly Director System",
@@ -3700,12 +3976,11 @@
         {
             "name": "Magnetic Field Generator",
             "key_name": "magnetic-field-generator",
-            "category": "crafting3",
+            "category": "crafting2",
             "time": 120,
             "ingredients": [
                 ["versatile-framework", 5],
-                ["em-control-rod", 2],
-                ["battery", 10]
+                ["em-control-rod", 2]
             ],
             "product": ["magnetic-field-generator", 2]
         },
@@ -3732,6 +4007,44 @@
                 ["pressure-conversion-cube", 1]
             ],
             "product": ["nuclear-pasta", 1]
+        },
+        {
+            "name": "Biochemical Sculptor",
+            "key_name": "biochemical-sculptor",
+            "category": "crafting4",
+            "time": 120,
+            "ingredients": [
+                ["assembly-director-system", 1],
+                ["ficsite-trigon", 80],
+                ["water", 20]
+            ],
+            "product": ["biochemical-sculptor", 4]
+        },
+        {
+            "name": "Ballistic Warp Drive",
+            "key_name": "ballistic-warp-drive",
+            "category": "crafting3",
+            "time": 60,
+            "ingredients": [
+                ["thermal-propulsion-rocket", 1],
+                ["singularity-cell", 5],
+                ["superposition-oscillator", 2],
+                ["dark-matter-crystal", 40]
+            ],
+            "product": ["biochemical-sculptor", 4]
+        },
+        {
+            "name": "AI Expansion Server",
+            "key_name": "ai-expansion-server",
+            "category": "crafting6",
+            "time": 15,
+            "ingredients": [
+                ["magnetic-field-generator", 1],
+                ["neural-quantum-processor", 1],
+                ["superposition-oscillator", 1],
+                ["excited-photonic-matter", 25]
+            ],
+            "product": ["biochemical-sculptor", 1]
         }
     ],
     "resources": [
