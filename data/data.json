@@ -1058,6 +1058,17 @@
         }
     ],
     "recipes": [
+	    	{
+            "name": "Bauxite (Caterium)",
+            "key_name": "bauxite-caterium",
+            "category": "crafting7",
+            "time": 6,
+            "ingredients": [
+                ["reanimated-sam", 1],
+		["caterium-ore", 15]
+            ],
+            "product": ["bauxite", 12]
+        },
 	{
             "name": "Hog Protein",
             "key_name": "hog-protein",
