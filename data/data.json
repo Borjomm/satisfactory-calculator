@@ -2058,7 +2058,7 @@
             "time": 6,
             "ingredients": [
                 ["reanimated-sam", 1],
-				["bauxite", 24]
+				["coal", 24]
             ],
             "product": ["raw-quartz", 12]
         },
