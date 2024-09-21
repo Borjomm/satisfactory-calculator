@@ -189,7 +189,7 @@
         {
             "name": "Solid Biofuel",
             "key_name": "solid-biofuel",
-            "tier": 1,
+            "tier": -1,
             "stack_size": 200
         },
         {
@@ -231,7 +231,7 @@
         {
             "name": "Alien DNA Capsule",
             "key_name": "alien-dna-capsule",
-            "tier": 1,
+            "tier": -1,
             "stack_size": 50
         },
         {
@@ -309,7 +309,7 @@
         {
             "name": "Copper Sheet",
             "key_name": "copper-sheet",
-            "tier": 2,
+            "tier": 1,
             "stack_size": 100
         },
         {
@@ -439,6 +439,12 @@
             "stack_size": 100
         },
         {
+            "name": "Heavy Modular Frame",
+            "key_name": "heavy-modular-frame",
+            "tier": 4,
+            "stack_size": 50
+        },
+        {
             "name": "Circuit Board",
             "key_name": "circuit-board",
             "tier": 5,
@@ -533,12 +539,6 @@
             "key_name": "packaged-liquid-biofuel",
             "tier": 5,
             "stack_size": 100
-        },
-        {
-            "name": "Heavy Modular Frame",
-            "key_name": "heavy-modular-frame",
-            "tier": 4,
-            "stack_size": 50
         },
         {
             "name": "Computer",
