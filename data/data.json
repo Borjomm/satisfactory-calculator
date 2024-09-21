@@ -973,61 +973,61 @@
         {
             "name": "Smart Plating",
             "key_name": "smart-plating",
-            "tier": 2,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Versatile Framework",
             "key_name": "versatile-framework",
-            "tier": 3,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Automated Wiring",
             "key_name": "automated-wiring",
-            "tier": 4,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Modular Engine",
             "key_name": "modular-engine",
-            "tier": 5,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Adaptive Control Unit",
             "key_name": "adaptive-control-unit",
-            "tier": 5,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Assembly Director System",
             "key_name": "assembly-director-system",
-            "tier": 7,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Magnetic Field Generator",
             "key_name": "magnetic-field-generator",
-            "tier": 8,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Thermal Propulsion Rocket",
             "key_name": "thermal-propulsion-rocket",
-            "tier": 8,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Nuclear Pasta",
             "key_name": "nuclear-pasta",
-            "tier": 8,
+            "tier": 11,
             "stack_size": 50
         },
         {
             "name": "Biochemical Sculptor",
             "key_name": "biochemical-sculptor",
-            "tier": 9,
+            "tier": 11,
             "stack_size": 100
         },
         {
@@ -1039,7 +1039,7 @@
         {
             "name": "AI Expansion Server",
             "key_name": "ai-expansion-server",
-            "tier": 9,
+            "tier": 11,
             "stack_size": 100
         }
     ],
