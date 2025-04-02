@@ -1398,7 +1398,7 @@
             "name": "Alternate: Fine Concrete",
             "key_name": "alt-concrete",
             "category": "crafting2",
-            "time": 24,
+            "time": 12,
             "ingredients": [
                 ["silica", 3],
                 ["limestone", 12]
